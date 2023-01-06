@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #474056;
+}
+.container h1{
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.form-blog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  width: 200px;
+  height: 25px;
+  margin-bottom: 10px;
+  outline: none;
+}
+textarea{
+  width: 200px;
+  height: 75px;
+  outline: none;
+  resize: none;
+  margin-bottom: 10px;
+}
+#btn{
+  width: 200px;
+  height: 25px;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 6px;
+  transition: all .6s ease-in-out;
+}
+.cont{
+width: 1500px;
+      display: flex;
+  flex-wrap: wrap;
+}
+.blog{
+  background-color: #0F7173;
+    display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height:200px;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: space-around;
+  padding: 30px;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+#delete{
+  height: 25px;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 6px;
+    transition: all .6s ease-in-out;
+}
+#btn:hover,
+#delete:hover{
+background: #Ef8354;
+}
